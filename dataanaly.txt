@@ -1,0 +1,34 @@
+Nagpur : Taluka(692)
+
+Mumbai : Taluka(239)
+
+Pune : Taluka(729)
+
+
+
+
+
+
+Nagpur : Area sq. ft(102325848264.00)
+
+Mumbai :  Area sq. ft(35476412652.00)
+
+Pune :  Area sq. ft(117771426981.00)
+
+
+
+ctrl + z
+ctrl + y
+shift + ctrl + up or down
+shift + ctrl + left or right
+ctrl + h
+ctrl + f
+ctrl + c
+ctrl + v
+ctrl + a
+ctrl + s
+
+
+
+
+

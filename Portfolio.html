@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+    <style>
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin: 10px;
+    width: 90vw;
+    background-color:transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right:30%;
+    border-style: solid;
+    border-width: 10px;
+    border-color:white ;
+}
+
+.heading{
+    border-style: solid;
+    border-width: 6px;
+    border-color: pink;
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.navigation{
+    color:whitesmoke ;
+    display: flex;
+    font-size: 40px;
+    font-weight: medium;
+    align-items: center;
+}
+
+.navbar1{
+    margin: 10px;
+    width: 90vw;
+    background-color:transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right:15%;
+    border-style: solid;
+    border-width: 6px;
+    border-color:wheat;
+}
+
+ .heading1{
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(147, 255, 255);
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage{
+    0%{
+        transform: translateX(0);
+    }
+    60%{
+        transform: translateX(-2.4rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+ }
+
+ .navigation1{
+    color:whitesmoke ;
+    display: flex;
+    font-size: 40px;
+    font-weight: medium;
+    align-items: center;
+   
+ }
+
+    </style>
+</head>
+
+<body style="background:url(https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg);">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script><br>
+
+   
+        <h1 style="color:rgb(225, 248, 95);" > Greating from <span class="multiple-text"></span></h1> 
+<br><br><br>
+        <div class="navbar">
+            <div class="heading">
+              <img  src="isha1.jpg" alt="" style="height:140px;">
+            </div>
+    
+            <div class="navigation">
+                <div><a href="isha.html"  style="color: white;  text-decoration: none;"  >ISHA TIWADE</a></div>            
+            </div>
+         </div>
+
+         <br><br><br><br>
+        <div class="navbar1">
+            <div class="navigation1">
+                <div><a href="vaibhav.html"  style="color: white; text-decoration: none;"> VAIBHAV GIRADKAR </a></div>            
+            </div>
+            <div class="heading1">
+              <img src="me.jpg" alt="" style="height:140px;">
+            </div>
+         </div>
+    
+         <br><br><br><br>
+         <div class="navbar">
+             <div class="heading">
+               <img src="chetna2.jpg" alt="" style="height:140px;">
+             </div>
+             <div class="navigation">
+                <div><a href="chetna.html" style="color: white;text-decoration: none;">CHETNA KATOLE</a></div>            
+            </div>
+          </div>
+
+          <br><br><br><br>
+        <div class="navbar1">
+            <div class="navigation1">
+                <div><a href="abhas.html"  style="color: white;text-decoration: none;">ABHAS PAL</a></div>            
+            </div>
+            <div class="heading1">
+              <img src="abhas1.jpg" alt="" style="height:140px;">
+            </div>
+         </div>
+         <script>
+       
+            const typed = new Typed('.multiple-text', {
+                strings: ['Isha. Tiwade','Abhas. Pal','Chetna. Katole','Vaibhav. Giradkar'],
+                typeSpeed: 20,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+                </script>
+</body>
+</html>
+ 
